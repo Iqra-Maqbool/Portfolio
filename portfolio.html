@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Freelancer-Phlox Elementor WordPress Theme demo.phlox.pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         .ex{
+    background-color:#2d2e322f;
+    color:white;
+    border-radius: 10px;
+    height: 40px;
+    width:150px ;
+    margin-top: 5px;
+    position: fixed;
+    margin-left: 1200px;
+  }
+  .ex:hover{
+    background-color: blue;
+    width: 170px;
+    
+  }
+ body{
+background-color: #444;
+border-bottom: none;
+margin: 0;
+padding: 0;
+
+}
+.whole{
+    background-color: #2d2e32;
+
+width: 100%;
+height: 120px;
+}
+#footer{
+    background-color:#2d2e32;
+width: 100%;
+height: 150px;
+}
+#name{
+font-weight: bold;
+margin-top: 12px;
+}
+.navibar{   
+list-style: none;
+display: flex;
+flex-direction: row;
+color:lightgrey;
+margin-top: -48px;
+margin-left: 200px;
+
+
+}
+.web{
+   color: #fecd1a;
+}
+.web:hover{
+    color: black;
+}
+.Contactme{
+    background-color: #ffaf29;
+    border-radius: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: 15px;
+    margin-top: -200px;
+    border: none;
+  margin-left:-10px ;
+
+}
+
+.i{
+    background-color: #444;
+    border-radius: 15px;
+    width: 70px;
+    height: 60px;  
+    margin-right: -20px;
+    border: none;
+}
+.icon{
+    background-color: #444;
+    border-radius: 15px;
+    width: 70px;
+    border: none;
+    height: 60px;
+    margin-left: 450px;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.icon:hover{
+    background-color:#ffaf29 ;
+    .web{
+    color:#2d2e32;
+}
+}
+.web{
+    color: #fecd1a;
+}
+
+#Home:hover{
+color: white;
+font-weight: bolder;
+text-decoration:underline white;
+height: 35px;
+}
+#Portfolio:hover{
+color: white;
+font-weight: bolder;
+text-decoration:underline white;
+height: 35px;
+}
+#Contact:hover{
+color: white;
+font-weight: bolder;
+text-decoration:underline white;
+height: 35px;
+}
+
+
+nav{
+padding-top: 10px;
+}
+nav ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+.navibar li{
+padding-left: 30px;
+padding-right: 20px;
+}
+#text{
+    margin-top: 50px;
+    color: #64f4ab;
+}
+#Msg{
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+}
+h1#Msg{
+    font-size: 60px;
+
+}
+#text1{
+
+ margin-top: 200px;
+ 
+    color: #64f4ab;
+}
+#Msg1{
+    color:white;
+    font-size: 20px;
+}
+h3#Msg1{
+    font-size: 60px;
+    font-family: Arial;
+
+}
+#h{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+#p{
+font-size: 20px;
+color:white;
+text-align: center;
+}
+.readmore:hover{
+font-weight: bolder;
+height: 35px;
+}
+section article.sec3a{
+    width: 48%;
+height: 900px;
+
+float: left;
+
+border-bottom: none;
+padding-left: 5px;
+padding-right: 10px;
+
+}
+section aside.sec3b{
+    margin-left: -450px;
+    float: right;
+width: 40%;
+
+height: 900px;
+
+}
+
+.sec3c {
+    
+    border-radius: 10%;
+    border-width: 900px;
+    border:solid #52575afa;
+    margin-top: 110px;
+    margin-left: -47px;
+    width: 530px;
+    height: 550px;
+    background-color:#52575afa;
+    transform: rotate(-9deg);
+}
+#pic1{
+   
+    border-radius: 10%;
+    border-width: 900px;
+    margin-top: 17px;
+    margin-left: -27px;
+    width: 580px;
+    height: 530px;
+
+}
+
+.sec4a{
+width: 48%;
+height: 900px;
+float: left;
+margin-top:-20px;
+border-bottom: none;
+padding-left: 5px;
+padding-right: 10px;
+}
+.sec4c{
+    border-radius: 10%;
+    border-width: 900px;
+    border:solid #52575afa;
+    margin-top: 110px;
+    margin-left: 28px;
+    width: 570px;
+    height: 550px;
+    background-color:#52575afa;
+    transform: rotate(9deg); 
+}
+#pic2{
+    border-radius: 10%;
+    border-width: 900px;
+    margin-top: 17px;
+    margin-left: -12px;
+    width: 580px;
+    height: 530px;  
+}
+
+.sec4b{
+    margin-left: -500px;
+    float: right;
+width: 40%;
+
+height: 900px;  
+}
+
+
+  .link{
+    color: white;
+    text-decoration: none;
+  }
+
+ </style>
+</head>
+<body>
+    <div class="whole">
+        <nav>
+            <ul>
+                <a href="iqramaqbool%20task1.html">
+                    <li id="logo"><img src="logo-header.svg"</li>
+                    <li id="name"></li></a>
+                </ul>
+                <ul class="navibar">
+                    <p class="link"><a href="iqramaqbool%20task1.html" class="link">
+                        <li id="Home">Home</li></a></p>
+                        <p class="link"><a href="portfolio.html" class="link">
+                <li id="Portfolio">Portfolio</li></a></p>
+                <p class="link"><a href="Contact.html" class="link">
+                <li id="Contact">Contact</li></a></p>
+                <a href="iqramaqbool%20task1.html">
+                    <li><button class="icon" class="link"><p class="web"><i class="fa-solid fa-globe" >
+                    </i></p></button></li></a>
+                    <a href="Contact.html">
+                        <li><button class="Contactme">Contact Me</button></li></a>
+            </ul>
+        </nav></div>  
+
+        <div class="extr">
+            <a href="https://www.phlox.pro/go/?ref=averta">
+            <button class="ex"><i class="fa-solid fa-book"></i>&nbsp;&nbsp;Browse demo</button><br><br><br></a>
+            <a href="https://themeforest.net/item/lotus-flexible-multipurpose-responsive-wp-theme/3909293?_ga=2.83437782.1905726674.1688312197-774090223.1688208244&irgwc=1&clickid=W9p3U-xOExyPW6vSiK0Vt3rWUkF2JZS8q2sYSU0&iradid=275988&irpid=1264782&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1264782&utm_medium=affiliate&utm_source=impact_radius">
+            <button class="ex"><i class="fa-sharp fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;Buy Now &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br><br><br></a>
+            <a href="">
+            <button class="ex"><i class="fa-solid fa-file-export"></i>&nbsp;&nbsp;Export Section</button></a>
+        </div>
+
+
+
+        <div>
+            <section class="sec3">
+                <article class="sec3a">
+                    <br><br><p id="text1">_
+                        Project 1</p>
+                    <p id="Msg1" style="font-size: 42px; font-weight: bold;">Branding Nice Studio</p>
+                <p id="Msg1" style="font-size: 23px;">
+                    The technological revolution is changing aspect of our lives,<br> and the fabric of society 
+                    itself. it's also changing the way we<br> learn and what we learn. 
+                    Factual knowledge is less prized<br> when everything 
+                    you ever need to know can be found on your <br>phone. 
+                    There's no imperative to be an expert at doing<br> everything when you can.
+                </p><br><br>
+                <p class="readmore" style="color: #fecd1a; font-size: 25px;"><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Read more</button>
+            
+                </article> 
+            <aside class="sec3b" >  
+            <div class="sec3c">
+                <img id="pic1" style="    transform: rotate(8deg);" src="portfolio-1-img.jpg"></div>
+            </aside></section>
+        </div>
+    
+    
+    
+        
+        <div>
+            <section class="sec4">
+               
+                <article class="sec4a">
+                 <div class="sec4c">
+                    <img id="pic2" style=" transform: rotate(-8deg);" src="portfolio-2-img.jpg">
+            </article> 
+            <aside class="sec4b" > 
+             
+            <br><br><p id="text1">_Project 2</p>
+                <p id="Msg1" style="font-size: 42px; font-weight: bold;">Mobile Card App </p>
+            <p id="Msg1" style="font-size: 23px;">
+                The technological revolution is changing aspect of<br> our lives, and the fabric of society itself. 
+                it's also<br> changing the way we learn and what we learn.<br> Factual knowledge is less prized when 
+                everything you <br>ever need to know can be found on your phone.<br>
+                There's no imperative to be an expert at doing<br> everything when you can.
+            </p><br><br>
+            <p class="readmore" style="color: #fecd1a; font-size: 25px;"><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Read more</button>
+            </aside></section>
+        </div>
+        
+    
+        <div>
+            <section class="sec3">
+                <article class="sec3a">
+                    
+                    <br><br><p id="text1">_
+                        Project 3</p>
+                    <p id="Msg1" style="font-size: 42px; font-weight: bold; ">Resturant Landing Page</p>
+                <p id="Msg1" style="font-size: 23px;">
+                    The technological revolution is changing aspect of our lives,<br> and the fabric of society 
+                    itself. it's also changing the way we<br> learn and what we learn. 
+                    Factual knowledge is less prized<br> when everything 
+                    you ever need to know can be found on your <br>phone. 
+                    There's no imperative to be an expert at doing<br> everything when you can.
+                </p><br><br>
+                <p class="readmore" style="color: #fecd1a; font-size: 25px; "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Read more</button>
+               
+                </article> 
+            <aside class="sec3b" >  
+            <div class="sec3c">
+                <img id="pic1" style="    transform: rotate(8deg);" src="portfolio-3-img.jpg"></div>
+            </aside>
+        </section>
+        </div>
+    
+
+    
+    
+    
+        
+        <div>
+            <section class="sec4">
+               
+                <article class="sec4a">
+                 <div class="sec4c">
+                    <img id="pic2" style=" transform: rotate(-8deg);" src="portfolio-4-img.jpg">
+            </article> 
+            <aside class="sec4b" > 
+             
+            <br><br><p id="text1">_Project 4</p>
+                <p id="Msg1" style="font-size: 42px; font-weight: bold;">Essential UI icon pack </p>
+            <p id="Msg1" style="font-size: 23px;">
+                The technological revolution is changing aspect of<br> our lives, and the fabric of society itself. 
+                it's also<br> changing the way we learn and what we learn.<br> Factual knowledge is less prized when 
+                everything you <br>ever need to know can be found on your phone.<br>
+                There's no imperative to be an expert at doing<br> everything when you can.
+            </p><br><br>
+            <p class="readmore" style="color: #fecd1a; font-size: 25px;"><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Read more</button>
+            </aside></section>
+        </div>
+        
+    
+        <div>
+            <section class="sec3">
+                <article class="sec3a">
+                    
+                    <br><br><p id="text1">_
+                        Project 5</p>
+                    <p id="Msg1" style="font-size: 42px; font-weight: bold; ">Financial App Design</p>
+                <p id="Msg1" style="font-size: 23px;">
+                    The technological revolution is changing aspect of our lives,<br> and the fabric of society 
+                    itself. it's also changing the way we<br> learn and what we learn. 
+                    Factual knowledge is less prized<br> when everything 
+                    you ever need to know can be found on your <br>phone. 
+                    There's no imperative to be an expert at doing<br> everything when you can.
+                </p><br><br>
+                <p class="readmore" style="color: #fecd1a; font-size: 25px; "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Read more</button>
+               
+                </article> 
+            <aside class="sec3b" >  
+            <div class="sec3c">
+                <img id="pic1" style="    transform: rotate(8deg);" src="portfolio-5-img.jpg"></div>
+            </aside>
+        </section>
+        </div>
+
+
+
+
+        <div>
+            <section class="sec4">
+               
+                <article class="sec4a">
+                 <div class="sec4c">
+                    <img id="pic2" style=" transform: rotate(-8deg);" src="portfolio-6-img.jpg">
+            </article> 
+            <aside class="sec4b" > 
+             
+            <br><br><p id="text1">_Project 6</p>
+                <p id="Msg1" style="font-size: 42px; font-weight: bold;">Design Brand Guidelines </p>
+            <p id="Msg1" style="font-size: 23px;">
+                The technological revolution is changing aspect of<br> our lives, and the fabric of society itself. 
+                it's also<br> changing the way we learn and what we learn.<br> Factual knowledge is less prized when 
+                everything you <br>ever need to know can be found on your phone.<br>
+                There's no imperative to be an expert at doing<br> everything when you can.
+            </p><br><br>
+            <p class="readmore" style="color: #fecd1a; font-size: 25px;"><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Read more</button>
+            </aside></section>
+        </div>
+        
+    
+        <div>
+            <section class="sec3">
+                <article class="sec3a">
+                    
+                    <br><br><p id="text1">_
+                        Project 7</p>
+                    <p id="Msg1" style="font-size: 42px; font-weight: bold; ">Flight Booking App</p>
+                <p id="Msg1" style="font-size: 23px;">
+                    The technological revolution is changing aspect of our lives,<br> and the fabric of society 
+                    itself. it's also changing the way we<br> learn and what we learn. 
+                    Factual knowledge is less prized<br> when everything 
+                    you ever need to know can be found on your <br>phone. 
+                    There's no imperative to be an expert at doing<br> everything when you can.
+                </p><br><br>
+                <p class="readmore" style="color: #fecd1a; font-size: 25px; "><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Read more</button>
+               
+                </article> 
+            <aside class="sec3b" >  
+            <div class="sec3c">
+                <img id="pic1" style="    transform: rotate(8deg);" src="portfolio-7-img.jpg"></div>
+            </aside>
+        </section>
+        </div>
+
+        
+    
+</body>
+</html>
